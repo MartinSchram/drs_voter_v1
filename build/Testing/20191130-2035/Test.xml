@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-x86_64-linux-gnu-g++-7"
+	BuildStamp="20191130-2035-Experimental"
+	Name="smierty-THP-X1"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/x86_64-linux-gnu-g++-7"
+	CompilerVersion="7.4.0"
+	OSName="Linux"
+	Hostname="smierty-THP-X1"
+	OSRelease="4.15.0-70-generic"
+	OSVersion="#79-Ubuntu SMP Tue Nov 12 10:36:11 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="979"
+	TotalPhysicalMemory="15799"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2000.03"
+	>
+	<Testing>
+		<StartDateTime>Nov 30 22:19 CET</StartDateTime>
+		<StartTestTime>1575148743</StartTestTime>
+		<TestList>
+			<Test>./tst/Voter_tst</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Voter_tst</Name>
+			<Path>./tst</Path>
+			<FullName>./tst/Voter_tst</FullName>
+			<FullCommandLine>/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst/Voter_tst</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00368285</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst/Voter_tst</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVk01PwzAMhu/5FT6yQysXGIMDB8TXATTQxsehqqogwojUOihx4e+TrKhsSED93pw88SNLcXk8pIJFR2RpBTNgEzjAi3ctFOsCQmfZ5KrMhlRw2bgn3fT3ht6td9QaiqzhrHv7AW81fXBs/F2sVQmL+zmsU30f5xfWB65PdVvU15aM9hHsc3P1Nwg7CG2YjGj8aOyKX+spTnFE9w1arDjAfYEi0WLFDPcEikSLFYe4K1AkWqw4wkKgSLRYUSDOxysSPSj+/849CuxYNxM1bls4ftrs2X2QKjeX8dclBK8p3xbFcW5PlsvzszT818NcfQK1giwX====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 30 22:19 CET</EndDateTime>
+		<EndTestTime>1575148743</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

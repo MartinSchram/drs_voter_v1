@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7  -g   CMakeFiles/Voter_tst.dir/VoterTest.cpp.o CMakeFiles/Voter_tst.dir/main.cpp.o  -o Voter_tst ../src/libVoter_lib.a ../lib/libgtestd.a -lpthread 

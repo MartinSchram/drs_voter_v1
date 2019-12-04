@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVoter_lib.a  CMakeFiles/Voter_lib.dir/main.cpp.o
+/usr/bin/ranlib libVoter_lib.a
