@@ -307,18 +307,20 @@ acxx_demangle.h
 -
 
 ../src/Voter.h
+stdlib.h
+-
 
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.cpp
+/home/smierty/git/drs_voter_v1/tst/VoterTest.cpp
 VoterTest.h
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.h
+/home/smierty/git/drs_voter_v1/tst/VoterTest.h
 
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.h
+/home/smierty/git/drs_voter_v1/tst/VoterTest.h
 Voter.h
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/Voter.h
+/home/smierty/git/drs_voter_v1/tst/Voter.h
 gtest/gtest.h
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/gtest/gtest.h
+/home/smierty/git/drs_voter_v1/tst/gtest/gtest.h
 
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/main.cpp
+/home/smierty/git/drs_voter_v1/tst/main.cpp
 gtest/gtest.h
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/gtest/gtest.h
+/home/smierty/git/drs_voter_v1/tst/gtest/gtest.h
 

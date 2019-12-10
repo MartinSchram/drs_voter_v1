@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smierty/git/GOGS/Drs_prj_branch/Voter
+CMAKE_SOURCE_DIR = /home/smierty/git/drs_voter_v1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smierty/git/GOGS/Drs_prj_branch/Voter/build
+CMAKE_BINARY_DIR = /home/smierty/git/drs_voter_v1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/CMakeFiles /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst/CMakeFiles/progress.marks
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f CMakeFiles/Makefile2 tst/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/CMakeFiles 0
+	cd /home/smierty/git/drs_voter_v1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smierty/git/drs_voter_v1/build/CMakeFiles /home/smierty/git/drs_voter_v1/build/tst/CMakeFiles/progress.marks
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f CMakeFiles/Makefile2 tst/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smierty/git/drs_voter_v1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f CMakeFiles/Makefile2 tst/clean
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f CMakeFiles/Makefile2 tst/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f CMakeFiles/Makefile2 tst/preinstall
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f CMakeFiles/Makefile2 tst/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f CMakeFiles/Makefile2 tst/preinstall
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f CMakeFiles/Makefile2 tst/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smierty/git/drs_voter_v1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tst/CMakeFiles/Voter_tst.dir/rule:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f CMakeFiles/Makefile2 tst/CMakeFiles/Voter_tst.dir/rule
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f CMakeFiles/Makefile2 tst/CMakeFiles/Voter_tst.dir/rule
 .PHONY : tst/CMakeFiles/Voter_tst.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ Voter_tst: tst/CMakeFiles/Voter_tst.dir/rule
 
 # fast build rule for target.
 Voter_tst/fast:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/build
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/build
 .PHONY : Voter_tst/fast
 
 VoterTest.o: VoterTest.cpp.o
@@ -188,7 +188,7 @@ VoterTest.o: VoterTest.cpp.o
 
 # target to build an object file
 VoterTest.cpp.o:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o
 .PHONY : VoterTest.cpp.o
 
 VoterTest.i: VoterTest.cpp.i
@@ -197,7 +197,7 @@ VoterTest.i: VoterTest.cpp.i
 
 # target to preprocess a source file
 VoterTest.cpp.i:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.i
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.i
 .PHONY : VoterTest.cpp.i
 
 VoterTest.s: VoterTest.cpp.s
@@ -206,7 +206,7 @@ VoterTest.s: VoterTest.cpp.s
 
 # target to generate assembly for a file
 VoterTest.cpp.s:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.s
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.s
 .PHONY : VoterTest.cpp.s
 
 main.o: main.cpp.o
@@ -215,7 +215,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/main.cpp.o
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -224,7 +224,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/main.cpp.i
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -233,7 +233,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/main.cpp.s
+	cd /home/smierty/git/drs_voter_v1/build && $(MAKE) -f tst/CMakeFiles/Voter_tst.dir/build.make tst/CMakeFiles/Voter_tst.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smierty/git/drs_voter_v1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

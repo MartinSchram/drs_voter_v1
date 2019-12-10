@@ -22,4 +22,4 @@ lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
  ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googletest/src/gtest_main.cc
+ /home/smierty/git/drs_voter_v1/lib/googletest/googletest/src/gtest_main.cc

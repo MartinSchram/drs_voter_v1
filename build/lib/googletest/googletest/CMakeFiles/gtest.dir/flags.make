@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/smierty/git/GOGS/Drs_prj_branch/Voter/src -I/home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googletest/include -I/home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googletest 
+CXX_INCLUDES = -I/home/smierty/git/drs_voter_v1/src -I/home/smierty/git/drs_voter_v1/lib/googletest/googletest/include -I/home/smierty/git/drs_voter_v1/lib/googletest/googletest 
 

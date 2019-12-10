@@ -1,4 +1,4 @@
-# Install script for directory: /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst
+# Install script for directory: /home/smierty/git/drs_voter_v1/tst
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

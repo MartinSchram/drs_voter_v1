@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/src/Voter.h
+/home/smierty/git/drs_voter_v1/src/Voter.h
+stdlib.h
+-
 
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/src/main.cpp
+/home/smierty/git/drs_voter_v1/src/main.cpp
 iostream
 -
 Voter.h
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/src/Voter.h
+/home/smierty/git/drs_voter_v1/src/Voter.h
 

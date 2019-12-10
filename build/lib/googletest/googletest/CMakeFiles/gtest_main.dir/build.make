@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smierty/git/GOGS/Drs_prj_branch/Voter
+CMAKE_SOURCE_DIR = /home/smierty/git/drs_voter_v1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smierty/git/GOGS/Drs_prj_branch/Voter/build
+CMAKE_BINARY_DIR = /home/smierty/git/drs_voter_v1/build
 
 # Include any dependencies generated for this target.
 include lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend.make
@@ -59,16 +59,16 @@ include lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../lib/googletest/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smierty/git/drs_voter_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/smierty/git/drs_voter_v1/lib/googletest/googletest/src/gtest_main.cc
 
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smierty/git/drs_voter_v1/lib/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smierty/git/drs_voter_v1/lib/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_main_EXTERNAL_OBJECTS =
 lib/libgtest_maind.a: lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 lib/libgtest_maind.a: lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make
 lib/libgtest_maind.a: lib/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libgtest_maind.a"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smierty/git/drs_voter_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libgtest_maind.a"
+	cd /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_maind.a
@@ -105,10 +105,10 @@ lib/googletest/googletest/CMakeFiles/gtest_main.dir/requires: lib/googletest/goo
 .PHONY : lib/googletest/googletest/CMakeFiles/gtest_main.dir/requires
 
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : lib/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smierty/git/GOGS/Drs_prj_branch/Voter /home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googletest /home/smierty/git/GOGS/Drs_prj_branch/Voter/build /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/smierty/git/drs_voter_v1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smierty/git/drs_voter_v1 /home/smierty/git/drs_voter_v1/lib/googletest/googletest /home/smierty/git/drs_voter_v1/build /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest /home/smierty/git/drs_voter_v1/build/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 

@@ -23,8 +23,8 @@ tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/Voter.h
- /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.cpp
- /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.h
+ /home/smierty/git/drs_voter_v1/tst/VoterTest.cpp
+ /home/smierty/git/drs_voter_v1/tst/VoterTest.h
 tst/CMakeFiles/Voter_tst.dir/main.cpp.o
  ../lib/googletest/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest/googletest/include/gtest/gtest-matchers.h
@@ -46,4 +46,4 @@ tst/CMakeFiles/Voter_tst.dir/main.cpp.o
  ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/main.cpp
+ /home/smierty/git/drs_voter_v1/tst/main.cpp

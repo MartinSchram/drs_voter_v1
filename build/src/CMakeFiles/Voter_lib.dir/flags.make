@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/smierty/git/GOGS/Drs_prj_branch/Voter/src 
+CXX_INCLUDES = -I/home/smierty/git/drs_voter_v1/src 
 

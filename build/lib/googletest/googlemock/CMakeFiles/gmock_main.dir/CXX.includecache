@@ -526,13 +526,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googlemock/src/gmock_main.cc
+/home/smierty/git/drs_voter_v1/lib/googletest/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googlemock/src/gmock/gmock.h
+/home/smierty/git/drs_voter_v1/lib/googletest/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googlemock/src/gtest/gtest.h
+/home/smierty/git/drs_voter_v1/lib/googletest/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

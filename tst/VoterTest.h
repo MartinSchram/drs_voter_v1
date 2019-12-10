@@ -21,9 +21,11 @@ protected:
 
     c_node cn1;
     c_node cn2;
+    c_node cn3;
 
     const unsigned short int id1 = 1;
     const unsigned short int id2 = 2;
+    const unsigned short int id3 = 3;
 
     float resX;
     float resY;

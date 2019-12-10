@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/smierty/git/GOGS/Drs_prj_branch/Voter
-BuildDirectory: /home/smierty/git/GOGS/Drs_prj_branch/Voter/build
+SourceDirectory: /home/smierty/git/drs_voter_v1
+BuildDirectory: /home/smierty/git/drs_voter_v1/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/smierty/git/GOGS/Drs_prj_branch/Voter"
+ConfigureCommand: "/usr/bin/cmake" "/home/smierty/git/drs_voter_v1"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -67,9 +67,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/x86_64-linux-gnu-g++-7

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smierty/git/GOGS/Drs_prj_branch/Voter
+CMAKE_SOURCE_DIR = /home/smierty/git/drs_voter_v1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smierty/git/GOGS/Drs_prj_branch/Voter/build
+CMAKE_BINARY_DIR = /home/smierty/git/drs_voter_v1/build
 
 # Include any dependencies generated for this target.
 include tst/CMakeFiles/Voter_tst.dir/depend.make
@@ -59,16 +59,16 @@ include tst/CMakeFiles/Voter_tst.dir/flags.make
 
 tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o: tst/CMakeFiles/Voter_tst.dir/flags.make
 tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o: ../tst/VoterTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Voter_tst.dir/VoterTest.cpp.o -c /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smierty/git/drs_voter_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o"
+	cd /home/smierty/git/drs_voter_v1/build/tst && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Voter_tst.dir/VoterTest.cpp.o -c /home/smierty/git/drs_voter_v1/tst/VoterTest.cpp
 
 tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Voter_tst.dir/VoterTest.cpp.i"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.cpp > CMakeFiles/Voter_tst.dir/VoterTest.cpp.i
+	cd /home/smierty/git/drs_voter_v1/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smierty/git/drs_voter_v1/tst/VoterTest.cpp > CMakeFiles/Voter_tst.dir/VoterTest.cpp.i
 
 tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Voter_tst.dir/VoterTest.cpp.s"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/VoterTest.cpp -o CMakeFiles/Voter_tst.dir/VoterTest.cpp.s
+	cd /home/smierty/git/drs_voter_v1/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smierty/git/drs_voter_v1/tst/VoterTest.cpp -o CMakeFiles/Voter_tst.dir/VoterTest.cpp.s
 
 tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o.requires:
 
@@ -83,16 +83,16 @@ tst/CMakeFiles/Voter_tst.dir/VoterTest.cpp.o.provides.build: tst/CMakeFiles/Vote
 
 tst/CMakeFiles/Voter_tst.dir/main.cpp.o: tst/CMakeFiles/Voter_tst.dir/flags.make
 tst/CMakeFiles/Voter_tst.dir/main.cpp.o: ../tst/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tst/CMakeFiles/Voter_tst.dir/main.cpp.o"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Voter_tst.dir/main.cpp.o -c /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smierty/git/drs_voter_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tst/CMakeFiles/Voter_tst.dir/main.cpp.o"
+	cd /home/smierty/git/drs_voter_v1/build/tst && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Voter_tst.dir/main.cpp.o -c /home/smierty/git/drs_voter_v1/tst/main.cpp
 
 tst/CMakeFiles/Voter_tst.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Voter_tst.dir/main.cpp.i"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/main.cpp > CMakeFiles/Voter_tst.dir/main.cpp.i
+	cd /home/smierty/git/drs_voter_v1/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smierty/git/drs_voter_v1/tst/main.cpp > CMakeFiles/Voter_tst.dir/main.cpp.i
 
 tst/CMakeFiles/Voter_tst.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Voter_tst.dir/main.cpp.s"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst/main.cpp -o CMakeFiles/Voter_tst.dir/main.cpp.s
+	cd /home/smierty/git/drs_voter_v1/build/tst && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smierty/git/drs_voter_v1/tst/main.cpp -o CMakeFiles/Voter_tst.dir/main.cpp.s
 
 tst/CMakeFiles/Voter_tst.dir/main.cpp.o.requires:
 
@@ -119,8 +119,8 @@ tst/Voter_tst: tst/CMakeFiles/Voter_tst.dir/build.make
 tst/Voter_tst: src/libVoter_lib.a
 tst/Voter_tst: lib/libgtestd.a
 tst/Voter_tst: tst/CMakeFiles/Voter_tst.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Voter_tst"
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Voter_tst.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smierty/git/drs_voter_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Voter_tst"
+	cd /home/smierty/git/drs_voter_v1/build/tst && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Voter_tst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tst/CMakeFiles/Voter_tst.dir/build: tst/Voter_tst
@@ -133,10 +133,10 @@ tst/CMakeFiles/Voter_tst.dir/requires: tst/CMakeFiles/Voter_tst.dir/main.cpp.o.r
 .PHONY : tst/CMakeFiles/Voter_tst.dir/requires
 
 tst/CMakeFiles/Voter_tst.dir/clean:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst && $(CMAKE_COMMAND) -P CMakeFiles/Voter_tst.dir/cmake_clean.cmake
+	cd /home/smierty/git/drs_voter_v1/build/tst && $(CMAKE_COMMAND) -P CMakeFiles/Voter_tst.dir/cmake_clean.cmake
 .PHONY : tst/CMakeFiles/Voter_tst.dir/clean
 
 tst/CMakeFiles/Voter_tst.dir/depend:
-	cd /home/smierty/git/GOGS/Drs_prj_branch/Voter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smierty/git/GOGS/Drs_prj_branch/Voter /home/smierty/git/GOGS/Drs_prj_branch/Voter/tst /home/smierty/git/GOGS/Drs_prj_branch/Voter/build /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst /home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst/CMakeFiles/Voter_tst.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/smierty/git/drs_voter_v1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smierty/git/drs_voter_v1 /home/smierty/git/drs_voter_v1/tst /home/smierty/git/drs_voter_v1/build /home/smierty/git/drs_voter_v1/build/tst /home/smierty/git/drs_voter_v1/build/tst/CMakeFiles/Voter_tst.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tst/CMakeFiles/Voter_tst.dir/depend
 

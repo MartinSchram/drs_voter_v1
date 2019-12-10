@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/smierty/git/GOGS/Drs_prj_branch/Voter/src/main.cpp" "/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/src/CMakeFiles/Voter_lib.dir/main.cpp.o"
+  "/home/smierty/git/drs_voter_v1/src/main.cpp" "/home/smierty/git/drs_voter_v1/build/src/CMakeFiles/Voter_lib.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

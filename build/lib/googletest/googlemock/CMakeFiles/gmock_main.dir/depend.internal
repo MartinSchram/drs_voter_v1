@@ -40,4 +40,4 @@ lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
  ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/smierty/git/GOGS/Drs_prj_branch/Voter/lib/googletest/googlemock/src/gmock_main.cc
+ /home/smierty/git/drs_voter_v1/lib/googletest/googlemock/src/gmock_main.cc

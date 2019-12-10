@@ -1,4 +1,4 @@
-# Install script for directory: /home/smierty/git/GOGS/Drs_prj_branch/Voter
+# Install script for directory: /home/smierty/git/drs_voter_v1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/src/cmake_install.cmake")
-  include("/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/tst/cmake_install.cmake")
-  include("/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/lib/googletest/cmake_install.cmake")
+  include("/home/smierty/git/drs_voter_v1/build/src/cmake_install.cmake")
+  include("/home/smierty/git/drs_voter_v1/build/tst/cmake_install.cmake")
+  include("/home/smierty/git/drs_voter_v1/build/lib/googletest/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/smierty/git/GOGS/Drs_prj_branch/Voter/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/smierty/git/drs_voter_v1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

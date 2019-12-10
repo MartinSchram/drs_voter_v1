@@ -4,6 +4,7 @@ void VoterTest::SetUp()
 {
     cn1.id = id1;
     cn2.id = id2;
+    cn3.id = id3;
 }
 
 void VoterTest::TearDown()
@@ -127,4 +128,25 @@ TEST_F(VoterTest, First_Cam1_Weigth_100N)
 
     EXPECT_FLOAT_EQ(24, resX);
     EXPECT_FLOAT_EQ(42, resY);
+}
+
+TEST_F(VoterTest, Three_Cams_Weigth_1AND2_5050N)
+{
+
+    cn1.ts = 1000000993293;
+    cn1.x = 24.0;
+    cn1.y = 42;
+
+    cn2.ts = 1000000993292;
+    cn2.x = 24.2;
+    cn2.y = 44;
+
+    cn3.ts = 999888771293;
+    cn3.x = 27.0;
+    cn3.y = 53;
+
+    voteNodesWeighted(cn1, cn2, cn3, &resX, &resY);
+
+    EXPECT_FLOAT_EQ(24.1, resX);
+    EXPECT_FLOAT_EQ(43, resY);
 }
